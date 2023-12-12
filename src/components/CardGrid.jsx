@@ -9,12 +9,7 @@ function CardGrid({ characters }) {
         characters.map((character) => {
           return (
             <Col key={character.id}>
-              <CharacterCard
-                // gender={char.gender}
-                // image={char.image}
-                // name={char.name}
-                character={character}
-              />
+              <CharacterCard character={character} />
             </Col>
           );
         })}
