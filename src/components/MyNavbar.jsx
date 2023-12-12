@@ -15,6 +15,10 @@ function MyNavbar() {
       <Link to="/" className="yellow">
         Home
       </Link>{" "}
+      |
+      <Link to="/characters" className="yellow">
+        Characters
+      </Link>{" "}
       | <Link to="register">Register</Link> | <Link to="login">Login</Link> |{" "}
       {user ? (
         <Button variant="danger" onClick={logoutUser}>
